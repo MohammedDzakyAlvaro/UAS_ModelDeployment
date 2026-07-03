@@ -201,8 +201,7 @@ class CreditScoreTrainer:
                     pipe,
                     "model",
                     registered_model_name=f"CreditScore_{name}",
-                    artifact_path="model",
-                    skops_trusted_types=["numpy.dtype"]
+                    skops_trusted_types=["numpy.dtype", "xgboost.core.Booster", "xgboost.sklearn.XGBClassifier"],
                     
                 )
                 print(f"\n[{name}]")
