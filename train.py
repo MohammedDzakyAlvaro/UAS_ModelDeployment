@@ -25,7 +25,6 @@ from xgboost import XGBClassifier
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 mlflow.set_tracking_uri("sqlite:///mlflow.db")
 
-
 # ─────────────────────────────────────────────
 # EVALUATION CLASS
 # ─────────────────────────────────────────────
