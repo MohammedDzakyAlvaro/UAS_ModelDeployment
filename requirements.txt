@@ -1,0 +1,17 @@
+# Core
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+
+# Models
+xgboost
+
+# Experiment tracking
+mlflow
+
+# API (optional, for future use)
+fastapi
+uvicorn
+pydantic
