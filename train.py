@@ -202,6 +202,8 @@ class CreditScoreTrainer:
                     pipe,
                     "model",
                     registered_model_name=f"CreditScore_{name}",
+                    artifact_path="model",
+                    skops_trusted_types=["numpy.dtype"]
                     
                 )
                 print(f"\n[{name}]")
